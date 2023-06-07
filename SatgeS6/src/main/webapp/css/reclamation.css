@@ -1,0 +1,136 @@
+@charset "UTF-8";
+.content-table{
+	border-collapse:collapse;
+	margin:25px 25px;
+	font-size:0.9em;
+	height:50px;
+	min-width:700px;	
+	border-radius:5px 5px 0 0;
+	overflow:hidden;
+	box-shadow:0 0 2px ;
+	margin-left:190px;
+	text-align:center;
+	
+}
+.content-table thead tr{
+    background-color:#4CBB17;
+    color:#ffffff;
+    text-align:left;
+    font-weight:bold;
+    text-align:center;
+    
+}
+.content-table th,
+.content-table td{
+    padding:12px 15px;
+    
+    
+}
+.content-table tbody tr{
+    border-bottom:1px solid #dddddd;}
+.content-table tbody tr :nth-of-type(even){
+    background-color:#f3f3f3;
+}
+.container{
+	margin:50px 70px 0 70px;
+	background-color:#ddd;
+	padding:0 0 40px 0;
+	border-radius:5px;
+	box-shadow:0 0 4px;
+	margin-right:80px;
+	margin-left: 190px;
+}
+h1{
+    margin:0 30px 0 445px;
+    color:#34495e;
+
+}
+#btn {
+	margin-left:990px;
+}
+.button i {
+	margin-right: 5px;
+		}
+.popup{
+	background: rgba(0,0,0,0.6);
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	display:none;
+	justify-content:center;
+	align-items:center;
+}
+.popup-content{
+	height:250px;
+	width:500px;
+	background:#fff;
+	padding:20px;
+	border-radius:5px;
+	position:relative;
+}
+.close{
+	position:absolute;
+	top:-10px;
+	right:-10px;
+	background:#fff;
+	height:20px;
+	width:20px;
+	border-radius:50%;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+.textfield{
+	margin-left:80px;
+	align-items:center;
+	text-align:justify;
+	border-radius:10px;
+	width:300px;
+	margin-top:20px;
+	padding-bottom:10px;
+}
+#envoyer{
+	border-radius:15px;
+	background:green;
+}
+.textfield1{
+	margin-left:80px;
+	align-items:center;
+	text-align:justify;
+	border-radius:10px;
+	width:100px;
+	margin-top:20px;
+	padding-bottom:10px;
+	height:70px;
+	
+}
+
+.popup1{
+	background: rgba(0,0,0,0.6);
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	display:none;
+	justify-content:center;
+	align-items:center;
+}
+.popup-content1{
+	height:650px;
+	width:900px;
+	background:#fff;
+	padding:20px;
+	border-radius:5px;
+	position:relative;
+}
+.close1{
+	position:absolute;
+	top:-10px;
+	right:-10px;
+	background:#fff;
+	height:20px;
+	width:20px;
+	border-radius:50%;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}

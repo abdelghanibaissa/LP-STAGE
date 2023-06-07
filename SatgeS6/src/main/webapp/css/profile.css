@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+	text-align:justify;
+	
+	
+}
+.container{
+	margin-left:90px;
+	margin-right:90px;
+	margin-top:60px;
+	background-color:#E5E4E2;
+
+	padding-top:60px;
+	border-radius:10px;
+	padding-bottom:40px;
+}
+.form{
+	padding-left:150px;
+		background-color:#fff;
+	
+}

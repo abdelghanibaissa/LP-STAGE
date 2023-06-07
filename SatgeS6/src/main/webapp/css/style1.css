@@ -1,0 +1,174 @@
+*{
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style:none;
+}
+body{
+  font-family:montserrat;
+}
+a.active,a:hover{
+  border:1px solid white;
+  transition: .5s;
+}
+.content-table{
+  border-collapse:collapse;
+  margin:25px 25px;
+  font-size:0.9em;
+  height:50px;
+  min-width:700px;	
+  border-radius:5px 5px 0 0;
+  overflow:hidden;
+  box-shadow:0 0 2px ;
+}
+.content-table thead tr{
+  background-color:#4CBB17;
+  color:#ffffff;
+  text-align:left;
+  font-weight:bold;
+}
+.content-table th,
+.content-table td{
+  padding:12px 15px;
+}
+.content-table tbody tr{
+  border-bottom:1px solid #dddddd;}
+.content-table tbody tr :nth-of-type(even){
+  background-color:#f3f3f3;
+}
+.tabs {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top:50px;
+  margin-left:30px;
+  
+}
+.tabs li {
+  padding: 10px;
+  background-color: #f6f4f4;
+  border-right: 1px solid white;
+  cursor: pointer;
+  transition: 0.2s;
+  
+  border-radius: 15px 15px 0px 0px;
+}
+.tabs li.active,
+.tabs li:hover {
+  background-color: #ddd;
+  
+}
+.content {
+  background-color: #ddd;
+  width:600px;
+  margin-left:30px;
+  border-radius: 0px 15px 15px 15px;
+  
+}
+.content > div {
+  padding: 20px;
+  margin-left:80px;
+  margin-right:80px;
+
+}
+.content > div:not(:first-child) {
+  display: none;
+}
+.center form{
+  padding: 0 40px;
+  box-sizing : border-box;
+}
+form .txt-field{
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 30px 0;
+}
+.txt-field input{
+  width: 100%;
+  top:10%;
+  padding: 0 5px;
+  height: 40px;
+  background: none;
+  outline: none;
+}
+.txt-field label{
+  position: absolute;
+  top: 0%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.txt-field span::before{
+  content:'';
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #2691d9;
+  transition: .5s;
+}
+.txt-field input:focus ~ label,
+.txt-field input:valid ~ label{
+  top: -5px;
+  color: 2691d9;
+}
+.txt-field input:focus ~ span::before,
+.txt-field input:valid ~ label::before{
+  width: 100%;
+}
+.pass{
+  margin: 5px 10px 10px 5px;
+  color: #a6a6a6;
+  cursor: pointer;
+}
+
+input[type="submit"]{
+  width: 200px;
+  height: 50px;
+  margin: 0 0 20px 0;
+  margin-left:100px;
+  border: 1px solid;
+  background:	#2691d9;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}	
+.jamla{
+  display:flex;
+}
+.up {
+  position: fixed;
+  bottom: 10px;
+  right: -30px;
+  margin-right:30px;
+  background-color: #ff5722;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 4px;
+  font-family: Arial, Tahoma;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.up.show {
+  right: 10px;
+}
+
+.container-fluid{
+  margin-left:400px;
+}
+.d-flex{
+  margin-right:80px;
+}
+.last{
+  margin-left:980px;
+}
